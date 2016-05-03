@@ -3,7 +3,11 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.Scanner;
-
+/**
+ * 
+ * @author Shapan Dashore.
+ * 
+ */
 public class Cleansing {
     private PrintWriter writer = null;
     private static String outPutFolder = null;
