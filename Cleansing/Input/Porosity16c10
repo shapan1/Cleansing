@@ -1,0 +1,45 @@
+
+Load Profile: Constant Current= 60.8 (A)
+
+"Active Material Isolation Model" for anode is on.
+"Active Material Isolation Model" for cathode is on.
+  *** Transference number: 0.38
+Particle radius 7.5 (um) is specified for "GRAPHITE"
+"SEI Growth Model" for GRAPHITE is on.
+Particle radius 4.15 (um) is specified for "LMO"
+"SEI Growth Model" for LMO is on.
+Particle radius 2.5 (um) is specified for "NCA"
+"SEI Growth Model" for NCA is on.
+ANODE:
+  Contains 1 active materials
+    GRAPHITE: (94%wt) (92.8461%vol) (Theoretical Capacity 371.933mAh/g) (Swelling Coefficient 1)
+  Porosity: 0.27
+  Thickness: 81 um (one side)
+  Density: 2212.5Kg/m3
+  Electrode Expansion Coeff: 1
+  SEI Layer Thickness: 5 nm
+  SEI Layer Resistance at Room Temperature: 0.00033 Ohm_m2 with Activation Energy 32000 J/mol
+CATHODE:
+  Contains 2 active materials
+    LMO: (45%wt) (44.18%vol) (Capacity 103mAh/g) (Swelling Coefficient 1)
+    NCA: (50%wt) (44.6073%vol) (Capacity 180mAh/g) (Swelling Coefficient 1)
+  Porosity: 0.16
+  Thickness: 77.5 um (one side)
+  Density: 4202.01Kg/m3
+  Electrode Expansion Coeff: 1
+  Film Thickness: 2 nm
+  Film Resistance at Room Temperature: 0.00013 Ohm_m2 with Activation Energy 32000 J/mol
+
+
+Cell Reversible Capacity= 6142mAh
+Voltage@100%SOC= 4.2V
+Cell Operational Capacity@4.2V= 6080.41 mAh
+Current@1C= 6.08041 A
+
+ Initial SOC = 1
+
+Cycles  Time(s)   Protocol Status Capacity(mAh)  Voltage(V)  Current(A)    Power(W)   Temp(C)      Iters   
+     0        5.90          CC       D       99.64       3.697      60.800     224.784      26.488   6 5.3e-009
+     0       10.90          CC       D      184.09       3.581      60.800     217.731      27.907   8 6.8e-009
+     0       15.90          CC       D      268.53       3.349      60.800     203.649      29.510  23 5.2e-009
+Cathode Phis less than 0! -8.430554e+000
